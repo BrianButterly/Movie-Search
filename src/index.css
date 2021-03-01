@@ -5,29 +5,29 @@
 }
 
 @keyframes bgcolor {
-    0% {
-        background-color: #45a3e5
-    }
+  0% {
+    background-color: #45a3e5;
+  }
 
-    30% {
-        background-color: #3dbf39
-    }
+  30% {
+    background-color: #3dbf39;
+  }
 
-    60% {
-        background-color: #eb670f
-    }
+  60% {
+    background-color: #eb670f;
+  }
 
-    90% {
-        background-color: #f35
-    }
+  90% {
+    background-color: #f35;
+  }
 
-    100% {
-        background-color: #864cbf
-    }
+  100% {
+    background-color: #864cbf;
+  }
 }
 
 body {
-  font-family: 'montserrat', sans-serif;
+  font-family: "montserrat", sans-serif;
   -webkit-animation: bgcolor 40s infinite;
   animation: bgcolor 50s infinite;
   -webkit-animation-direction: alternate;
@@ -55,16 +55,16 @@ section {
   padding: 15px;
 }
 
-.searchbox {  
+.searchbox {
   display: block;
   width: 100%;
   padding: 15px;
   border: none;
   outline: none;
   background: none;
-  background-color: #EEE;
+  background-color: #eee;
   border-radius: 8px;
-  color: #53565A;
+  color: #53565a;
   font-size: 20px;
   font-weight: 300;
   transition: 0.4s ease-out;
@@ -75,111 +75,110 @@ section {
 }
 
 .results {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0px -15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px;
 }
 
 .results .result {
-	width: 33.333%;
-	min-width: 250px;
-	padding: 15px;
-	display: flex;
-	flex-direction: column;
-	cursor: pointer;
+  width: 33.333%;
+  min-width: 250px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
 }
 
 .results .result img {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .results .result h3 {
-	color: #FFF;
-	font-size: 20px;
-	font-weight: 600;
-	padding: 10px;
-	background: #445565;
-	flex: 1 1 100%;
-	transition: 0.4s ease-out;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  background: #445565;
+  flex: 1 1 100%;
+  transition: 0.4s ease-out;
 }
 
 .results .result:hover h3 {
-	background: #FFF;
-	color: #223343;
+  background: #fff;
+  color: #223343;
 }
 
 .popup {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	overflow-y: scroll;
-	-webkit-animation: bgcolor 40s infinite;
-  	animation: bgcolor 50s infinite;
-  	-webkit-animation-direction: alternate;
-  	animation-direction: alternate;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  -webkit-animation: bgcolor 40s infinite;
+  animation: bgcolor 50s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 .popup .content {
-	display: block;
-	width: 100%;
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 25px;
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 25px;
 
-	color: #FFF;
+  color: #fff;
 }
 
 .popup .content h2 {
-	font-size: 28px;
-	font-weight: 600;
+  font-size: 28px;
+  font-weight: 600;
 }
 .popup .content h2 span {
-	font-weight: 300;
-	font-size: 20px;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 .popup .content .rating {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .popup .content .plot {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0px -15px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px 30px;
 }
 
 .popup .content .plot img {
-	flex: 1 1 50%;
-	max-width: 300px;
-	padding: 0px 15px;
+  flex: 1 1 50%;
+  max-width: 300px;
+  padding: 0px 15px;
 }
 
 .popup .content .plot p {
-	flex: 1 1 50%;
-	padding: 15px;
+  flex: 1 1 50%;
+  padding: 15px;
 }
 
 .popup .content .close {
-	display: inline-block;
-	padding: 15px 30px;
-	font-size: 18px;
-	font-weight: 700;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 700;
 
-	background: #3a72aa;
-	color: #FFF;
-	border-radius: 8px;
-	border: none;
-	outline: none;
-	appearance: none;
-	cursor: pointer;
+  background: #3a72aa;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
 
-	transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
 }
 
 .popup .content .close:hover {
-	background: #7db6f0;
+  background: #7db6f0;
 }
